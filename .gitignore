@@ -22,17 +22,12 @@
 *.csv
 *.DS_Store
 
-# Created by https://www.gitignore.io/api/go
-
 ### Go Patch ###
 /vendor/
 /Godeps/
-/rest_errors/Gopkg.lock
-
-# Created by https://www.gitignore.io/api/intellij
-
-# IntelliJ
 out/
-
-# JIRA plugin
 atlassian-ide-plugin.xml
+/logger/vendor/
+/logger/Gopkg.lock
+/rest_errors/vendor/
+/rest_errors/Gopkg.lock
